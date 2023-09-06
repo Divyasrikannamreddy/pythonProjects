@@ -3,10 +3,6 @@ import time
 import pytest
 from selenium import webdriver
 
-@pytest.fixture(scope="class")
-def input_value():
-    input = 30
-    return input
 
 
 @pytest.fixture()
